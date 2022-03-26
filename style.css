@@ -158,7 +158,9 @@ body {
 
 /* Media queries */
 @media screen and (max-width:425px) {
- 
+  body{
+    background: url(./images/pattern-background-mobile.svg) var(--Pale-blue);
+ }
 .proceed-btn{
  font-size: 12px;
  height: 1.5rem;
